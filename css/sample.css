@@ -1,0 +1,113 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+    background-color: #1f0254;
+}
+header{
+    background-color: #1f0254;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Noto Sans JP", "Yu Gothic UI", "Meiryo", sans-serif;
+}
+
+.topimage-wrapper{
+ display: inline-block;
+}
+.topimage{
+    width: auto;
+    height: 200px;
+}
+main{
+    border-bottom:1px solid #ccc;
+    background-color: #1f0254;
+}
+
+.pc_hands_container{
+    display: flex;               /* これが重要 */
+    justify-content: center;     /* 横中央 */
+    align-items: center;
+    height: 200px;
+    /* margin-bottom: 50px;  */
+}
+
+#pc_hands{
+    width: 100%;
+    height: 100%;    
+}
+
+.judgment_container{
+    /* margin: 50px; */
+    display: flex;               /* これが重要 */
+    justify-content: center;     /* 横中央 */
+    align-items: center;
+    height: 200px;         
+}
+
+#judgment{
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+}
+
+.pc{
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+    width: 50%;                  /* 親の幅に対して半分 */
+    max-width: 100px;            
+    height: auto;                /* 縦比率は自動 */
+}
+
+.takao{
+    /* margin-top: 100px; */
+    width: 50%;                  /* 親の幅に対して半分 */
+    max-width: 300px;            /* 最大300pxまで */
+    height: auto;                /* 縦比率は自動 */
+}
+
+footer{
+    background-color: #fff;
+    border-bottom:1px solid transparent;
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid transparent;
+    height: 100px;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid transparent;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    text-align: center;
+    list-style-type:none;
+    border: 1px solid transparent;
+    background-color: #1f0254;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li:hover{
+    background: #0066CC;
+    color:#fff;
+}
+
+.te{
+    width: 33%;
+    height: auto;
+}
+
+.text{
+    background-color: #1f0254;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Noto Sans JP", "Yu Gothic UI", "Meiryo", sans-serif;
+    font-size: large;
+}
